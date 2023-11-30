@@ -1,0 +1,21 @@
+﻿<Window x:Class="TicTacToe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Background="PaleVioletRed">
+        <WrapPanel  Width="240" Height="240" Background="Aquamarine">
+            <!--erst ein Label bauen und dann einfach kopieren und anschließend umbenennen Box11...-->
+            <Label Content="" Height="80" Width="80" Name="Box11" BorderThickness="2" BorderBrush="Black"  FontSize="40" FontFamily="Papyrus" MouseDown="Spielzug"/>
+            <Label Content="" Height="80" Width="80" Name="Box12" BorderThickness="2" BorderBrush="Black"  FontSize="40" FontFamily="Papyrus" MouseDown="Spielzug"/>
+            <Label Content="" Height="80" Width="80" Name="Box13" BorderThickness="2" BorderBrush="Black"  FontSize="40" FontFamily="Papyrus" MouseDown="Spielzug"/>
+            <Label Content="" Height="80" Width="80" Name="Box21" BorderThickness="2" BorderBrush="Black"  FontSize="40" FontFamily="Papyrus" MouseDown="Spielzug"/>
+            <Label Content="" Height="80" Width="80" Name="Box22" BorderThickness="2" BorderBrush="Black"  FontSize="40" FontFamily="Papyrus" MouseDown="Spielzug"/>
+            <Label Content="" Height="80" Width="80" Name="Box23" BorderThickness="2" BorderBrush="Black"  FontSize="40" FontFamily="Papyrus" MouseDown="Spielzug"/>
+            <Label Content="" Height="80" Width="80" Name="Box31" BorderThickness="2" BorderBrush="Black" FontSize="40" FontFamily="Papyrus" MouseDown="Spielzug"/>
+            <Label Content="" Height="80" Width="80" Name="Box32" BorderThickness="2" BorderBrush="Black"  FontSize="40" FontFamily="Papyrus" MouseDown="Spielzug"/>
+            <Label Content="" Height="80" Width="80" Name="Box33" BorderThickness="2" BorderBrush="Black" FontSize="40" FontFamily="Papyrus" MouseDown="Spielzug"/>
+        </WrapPanel>
+        <Button Content="Neues&#xD;&#xA;Spiel" HorizontalAlignment="Left" Margin="384,123,0,0" VerticalAlignment="Top" Width="108" Height="83" FontSize="24" HorizontalContentAlignment="Center" FontFamily="Segoe Script" Click="Button_Click"/>
+
+    </Grid>
+</Window>
